@@ -12,23 +12,7 @@
 
 ---
 
-## 🔢 By The Numbers
-
-| Metric | Value | Project |
-|--------|-------|---------|
-| Cost for **225 autonomous agent nanopayments** | `$0.025` total | ArcReflex |
-| Gas savings vs. Ethereum for same payments | **`19,080×`** cheaper | ArcReflex |
-| Memory recall latency (single `.db`, no infra) | **`6ms`** | Memoire |
-| Prior Authorization letter generation time | **`< 30 seconds`** | AuthBridge |
-| Quality threshold — pay or withhold | **`≥ 0.70`** score required | ArcReflex |
-| Solo build time for full autonomous economic system | **`5 days`** | ArcReflex |
-| Ethereum-equivalent cost of ArcReflex payments | **`$477`** (paid `$0.025`) | ArcReflex |
-| Emergency UI trigger threshold (Debt Spiral) | **`DTI > 43%`** | Debt Spiral |
-| Hallucination tolerance before PA submission | **`Zero`** | AuthBridge |
-
----
-
-## 🚀 Featured Projects
+##  Featured Projects
 
 <table>
   <tr>
