@@ -4,49 +4,10 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=2000&color=00B4D8&center=true&vCenter=true&width=780&lines=AI+decisions+must+be+provable%2C+enforceable%2C+and+economically+accountable.;If+it+can%27t+be+verified%2C+it+doesn%27t+execute.;Slash+stakes+on+anomalies.+Withhold+payment+on+low+quality.;Trust+decays+unless+continuously+verified.;I+don%27t+just+build+AI+apps.+I+build+the+rules+they+must+obey.)](https://git.io/typing-svg)
-
-<br/>
-
 [![X](https://img.shields.io/badge/%40TazwarEnan-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/TazwarEnan)
 [![LinkedIn](https://img.shields.io/badge/Tazwar%20Ahnaf-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tazwar-ahnaf-1872b8362)
 [![Instagram](https://img.shields.io/badge/tazwarahanafenan-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/tazwarahanafenan)
 
-</div>
-
----
-
-## ⚡ The Philosophy
-
-> **"AI decisions must be provable, enforceable, and economically accountable — or they don't execute."**
-
-```
-RULE I   → PROVABLE      Every AI decision is sealed, timestamped, and verifiable on-chain or in memory.
-RULE II  → ENFORCEABLE   Bad decisions trigger automatic stake slashing and conditional payment withholding.
-RULE III → ACCOUNTABLE   Trust decays. Payments are conditional. Sensitive actions require step-up approval.
-```
-
-| Rule | Mechanism | Projects |
-|------|-----------|----------|
-| **PROVABLE** | Seal decisions on HCS. EMA trust scoring for every memory. | `AegisMorpheme-X` · `Memoire` |
-| **ENFORCEABLE** | Quality gate < 0.70 → payment withheld. Anomaly detected → stake slashed. | `ArcReflex` · `AegisMorpheme-X` |
-| **ACCOUNTABLE** | CIBA step-up auth. Scoped tokens per action. AI self-audits before submission. Contract rejection before execution. | `Proxy Me` · `AuthBridge` · `QuotaDrift` |
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=tazwarayyyy&show_icons=true&theme=dark&bg_color=0d1b2a&title_color=00b4d8&icon_color=00b4d8&text_color=e0f7fa&border_color=0e4d5c&rank_icon=github&hide_border=false" alt="GitHub Stats" />
-    </td>
-    <td>
-      <img src="https://streak-stats.demolab.com/?user=tazwarayyyy&theme=dark&background=0d1b2a&ring=00b4d8&fire=00e5ff&currStreakLabel=00b4d8&sideLabels=e0f7fa&currStreakNum=e0f7fa&sideNums=e0f7fa&dates=80deea&border=0e4d5c" alt="GitHub Streak" />
-    </td>
-  </tr>
-</table>
 </div>
 
 ---
