@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,40:0a3d52,100:00b4d8&height=220&section=header&text=Tazwar%20Ahnaf&fontSize=56&fontColor=e0f7fa&fontAlignY=40&desc=Building%20the%20Accountability%20Infrastructure%20for%20AI&descAlignY=62&descColor=80deea&descSize=18&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,40:7f0000,100:e53935&height=220&section=header&text=Tazwar%20Ahnaf&fontSize=56&fontColor=e0f7fa&fontAlignY=40&animation=fadeIn" />
 
 <br/>
 
@@ -139,6 +139,6 @@ Prior Authorization liberation agent. **FHIR R4-native**, reads clinical records
 
 ![Profile Views](https://komarev.com/ghpvc/?username=tazwarayyyy&style=for-the-badge&color=00b4d8&label=PROFILE+VIEWS)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,50:0a3d52,100:0d1b2a&height=130&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:e53935,50:7f0000,100:0d1b2a&height=130&section=footer" />
 
 </div>
