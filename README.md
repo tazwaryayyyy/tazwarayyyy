@@ -1,8 +1,9 @@
 # TAZWAR AHNAF ENAN
 
-## I build agentic backends and governance infrastructure. The systems I care about are ones where the AI's decision is logged somewhere immutable and wrong behavior has a cost attached to it. I work in Rust, Python, and TypeScript, ship solo, and use free-tier infrastructure for everything. Most of this comes out of hackathon work, but the architecture is real.
+I build agentic backends and governance infrastructure. The systems I care about are ones where the AI's decision is logged somewhere immutable and wrong behavior has a cost attached to it. I work in Rust, Python, and TypeScript, ship solo, and use free-tier infrastructure for everything. Most of this comes out of hackathon work, but the architecture is real.
 
-### Right now I'm focused on the gap between "the model returned something" and "the model did the right thing, verifiably."
+Right now I'm focused on the gap between "the model returned something" and "the model did the right thing, verifiably."
+
 ---
 
 ## Signature Projects
