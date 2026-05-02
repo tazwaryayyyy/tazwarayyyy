@@ -1,47 +1,54 @@
-<div align="center">
+# TAZWAR AHNAF
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b132b,45:1c2541,100:3a506b&height=180&section=header&text=TAZWAR%20AHNAF&fontSize=48&fontColor=f8f9fa&fontAlignY=45" />
-
-Designing reliable AI products where decisions are auditable, payments are programmable, and behavior is measurable.
-
-[![X](https://img.shields.io/badge/X-0f172a?style=flat-square&logo=x&logoColor=white)](https://x.com/TazwarEnan)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f172a?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/tazwar-ahnaf-1872b8362)
-[![Instagram](https://img.shields.io/badge/Instagram-0f172a?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tazwarahanafenan)
-
-</div>
+Solo developer. AI systems where decisions are auditable and payments are programmable.
 
 ---
 
-## Profile
+I build agentic backends and governance infrastructure — systems where the AI makes a decision, that decision is logged immutably, and bad behavior has an economic cost. I work across Rust, Python, and TypeScript, ship solo, and deploy everything on free-tier infrastructure without compromising on architecture. Most of my work targets hackathon competitions, but the engineering is real.
 
-- Building production AI systems with clear economic and governance logic.
-- Focused on agent reliability, protocol-native architecture, and low-latency execution.
-- Shipping solo, fast, and with measurable outcomes.
+My current focus is on contract-enforcement layers for LLM agents — specifically the gap between "the model returned something" and "the model did the right thing, verifiably."
 
 ---
 
 ## Signature Projects
 
-### [AegisMorpheme-X](https://github.com/tazwaryayyyy/Aegis-Morpheme-X)
-Governance layer for AI agents with immutable decision logging on Hedera and automated slashing logic for unsafe behavior.
+### [Memoire](https://github.com/tazwaryayyyy/Memorie-AI)
+A Rust memory engine that scores every lesson at ingestion, tracks trust via EMA across reinforcement cycles, and tells agents whether to FOLLOW, HINT, or IGNORE each recalled memory.
 
-**Stack:** Hedera HCS/HTS, LangGraph, FastAPI, React, TinyML  
-**Live:** [aegis-morpheme-x.vercel.app](https://aegis-morpheme-x.vercel.app)
+![Rust](https://img.shields.io/badge/Rust-111827?style=flat-square&logo=rust&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-111827?style=flat-square&logo=sqlite&logoColor=white)
+![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-111827?style=flat-square&logo=onnx&logoColor=white)
+
+---
+
+### [AegisMorpheme-X](https://github.com/tazwaryayyyy/Aegis-Morpheme-X)
+Governance layer for AI agents: every decision is sealed on Hedera HCS, anomalous outputs trigger on-chain HTS token slashing, no manual review required.
+
+![Hedera](https://img.shields.io/badge/Hedera-111827?style=flat-square&logo=hedera&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-111827?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-111827?style=flat-square&logo=python&logoColor=white)
+
+---
 
 ### [ArcReflex](https://github.com/tazwaryayyyy/arcreflex)
-Autonomous economic nervous system where agents can perform quality-gated nanopayments with programmable settlement rules.
+Multi-agent orchestrator that withholds USDC micropayments until agent output clears a quality gate; settlement runs via EIP-3009 authorization on Arc with a Vyper contract enforcing the rules.
 
-**Stack:** Arc, Vyper, Circle USDC, EIP-3009, x402
+![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=white)
+![Vyper](https://img.shields.io/badge/Vyper-111827?style=flat-square&logo=ethereum&logoColor=white)
+![Circle USDC](https://img.shields.io/badge/Circle_USDC-111827?style=flat-square&logo=circle&logoColor=white)
+![D3.js](https://img.shields.io/badge/D3.js-111827?style=flat-square&logo=d3dotjs&logoColor=white)
 
-### [Memoire-AI](https://github.com/tazwaryayyyy/Memorie-AI)
-Self-correcting memory runtime in Rust with contradiction handling, scoring decay, and single-file persistence.
-
-**Stack:** Rust, ONNX, SQLite, MCP, Python cFFI
+---
 
 ### [AuthBridge](https://github.com/tazwaryayyyy/authbridge)
-FHIR-native prior authorization agent that evaluates evidence and drafts submission-ready letters with self-audit safeguards.
+Prior authorization agent that reads a patient's FHIR R4 record, scores clinical evidence against payer criteria (0–100), and drafts a submission-ready letter in under 30 seconds.
 
-**Stack:** FHIR R4, FastAPI, MCP, A2A, GPT-4o mini
+![FastAPI](https://img.shields.io/badge/FastAPI-111827?style=flat-square&logo=fastapi&logoColor=white)
+![FHIR R4](https://img.shields.io/badge/FHIR_R4-111827?style=flat-square&logo=data&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-111827?style=flat-square&logo=anthropic&logoColor=white)
+![A2A](https://img.shields.io/badge/A2A-111827?style=flat-square&logo=google&logoColor=white)
 
 ---
 
@@ -49,32 +56,30 @@ FHIR-native prior authorization agent that evaluates evidence and drafts submiss
 
 | Project | What It Does | Stack |
 |---|---|---|
-| [ProxyMe](https://github.com/tazwaryayyyy/ProxyME) | AI meeting assistant with explicit user approval before actions | Auth0, CIBA, FGA, Groq, WebSocket |
-| [WillSpend](https://github.com/tazwaryayyyy/willspend) | Opportunity-cost engine for delayed financial decisions | React, FastAPI, TypeScript, Groq |
-| [QuotaDrift](https://github.com/tazwaryayyyy/quotadrift) | Contract-driven reliability with up-front feasibility checks | Python, FastAPI, Pydantic, Docker |
-| [ROCmPort AI](https://github.com/tazwaryayyyy/rocmport-ai) | CUDA-to-ROCm/HIP porting workflow with multi-agent optimization | Groq, FastAPI, CrewAI, SSE |
-| [Constit](https://github.com/tazwaryayyyy/constit) | AI civic campaign manager for compliant outreach generation | Next.js, TypeScript, Supabase, Groq |
+| [PostMortem.ai](https://github.com/tazwaryayyyy/postmortem-ai) | Streams a full incident RCA in ~93 seconds via SSE | FastAPI, Groq, SSE, Vanilla JS |
+| [BlastRadius](https://github.com/tazwaryayyyy/blastradius) | Traces downstream PR impact as a D3 call graph before merge | FastAPI, IBM Bob, D3.js |
+| [QuotaDrift](https://github.com/tazwaryayyyy/quotadrift) | Enforces per-request latency/cost/reliability contracts across LLM providers | FastAPI, LiteLLM, Prometheus |
+| [ProxyMe](https://github.com/tazwaryayyyy/ProxyME) | AI meeting assistant that requires explicit Auth0 CIBA push approval before acting | Auth0 FGA, Groq, WebSocket |
+| [ROCmPort AI](https://github.com/tazwaryayyyy/rocmport-ai) | CUDA-to-HIP migration loop with per-step compile/profile evidence | Groq, CrewAI, FastAPI, SSE |
+| [WillSpend](https://github.com/tazwaryayyyy/willspend) | Computes the real cost of delayed financial decisions with Monte Carlo projection | FastAPI, Groq, Chart.js |
+| [Sativus AI](https://github.com/tazwaryayyyy/sativus-ai) | Plant diagnosis via Groq vision with live voice using Deepgram STT + ElevenLabs TTS | FastAPI, WebSocket, PWA |
+| [Constit](https://github.com/tazwaryayyyy/constit) | Generates compliant civic campaign outreach copy for political candidates | Next.js, Supabase, Groq |
 | [Debt Spiral](https://github.com/tazwaryayyyy/debt-spiral) | Debt risk visualization with emergency-state UX switching | FastAPI, JavaScript, Chart.js, Groq |
-| [Sativus AI](https://github.com/tazwaryayyyy/sativus-ai) | Real-time conversational plant diagnosis using native voice APIs | Groq, FastAPI, WebSocket |
 
 ---
 
-## Core Stack
+## Stack
 
 ![Rust](https://img.shields.io/badge/Rust-111827?style=flat-square&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-111827?style=flat-square&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=white)
-![Hedera](https://img.shields.io/badge/Hedera-111827?style=flat-square&logo=hedera&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=white)
+![Hedera](https://img.shields.io/badge/Hedera-111827?style=flat-square&logo=hedera&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-111827?style=flat-square&logo=sqlite&logoColor=white)
 
 ---
 
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=tazwaryayyyy&style=flat-square&color=3a506b&label=profile%20views)
-
-<sub>Building uncommon systems with clear constraints and real-world utility.</sub>
-
-</div>
+Everything deploys on free tier. The constraints are real; so is the output.
