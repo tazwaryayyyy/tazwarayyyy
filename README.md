@@ -1,13 +1,7 @@
-# TAZWAR AHNAF
+# TAZWAR AHNAF ENAN
 
-Solo developer. AI systems where decisions are auditable and payments are programmable.
-
----
-
-I build agentic backends and governance infrastructure — systems where the AI makes a decision, that decision is logged immutably, and bad behavior has an economic cost. I work across Rust, Python, and TypeScript, ship solo, and deploy everything on free-tier infrastructure without compromising on architecture. Most of my work targets hackathon competitions, but the engineering is real.
-
-My current focus is on contract-enforcement layers for LLM agents — specifically the gap between "the model returned something" and "the model did the right thing, verifiably."
-
+I build agentic backends and governance infrastructure. The systems I care about are ones where the AI's decision is logged somewhere immutable and wrong behavior has a cost attached to it. I work in Rust, Python, and TypeScript, ship solo, and use free-tier infrastructure for everything. Most of this comes out of hackathon work, but the architecture is real.
+Right now I'm focused on the gap between "the model returned something" and "the model did the right thing, verifiably."
 ---
 
 ## Signature Projects
