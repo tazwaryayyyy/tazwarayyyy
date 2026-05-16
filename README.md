@@ -18,16 +18,6 @@ A Rust memory engine that scores every lesson at ingestion, tracks trust via EMA
 
 ---
 
-### [AegisMorpheme-X](https://github.com/tazwaryayyyy/Aegis-Morpheme-X)
-Governance layer for AI agents: every decision is sealed on Hedera HCS, anomalous outputs trigger on-chain HTS token slashing, no manual review required.
-
-![Hedera](https://img.shields.io/badge/Hedera-111827?style=flat-square&logo=hedera&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-111827?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-111827?style=flat-square&logo=python&logoColor=white)
-
----
-
 ### [ArcReflex](https://github.com/tazwaryayyyy/arcreflex)
 Multi-agent orchestrator that withholds USDC micropayments until agent output clears a quality gate; settlement runs via EIP-3009 authorization on Arc with a Vyper contract enforcing the rules.
 
@@ -48,18 +38,29 @@ Prior authorization agent that reads a patient's FHIR R4 record, scores clinical
 
 ---
 
+### [ROCmPort AI](https://github.com/tazwaryayyyy/rocmport-ai)
+Multi-agent pipeline that migrates CUDA kernels to AMD ROCm/HIP — catching the wavefront-64 bugs hipify misses, compiling with hipcc, profiling with rocprof on real MI300X hardware, and iterating until the output is correct and fast. Includes a 170-example correctness dataset and a fine-tuned Qwen2.5-Coder-7B model trained on AMD hardware.
+
+![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-111827?style=flat-square&logo=fastapi&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-111827?style=flat-square&logo=groq&logoColor=white)
+![ROCm](https://img.shields.io/badge/ROCm-111827?style=flat-square&logo=amd&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-111827?style=flat-square&logo=python&logoColor=white)
+
+---
+
 ## Selected Work
 
 | Project | What It Does | Stack |
 |---|---|---|
 | [PostMortem.ai](https://github.com/tazwaryayyyy/postmortem-ai) | Streams a full incident RCA in ~93 seconds via SSE | FastAPI, Groq, SSE, Vanilla JS |
-| [BlastRadius](https://github.com/tazwaryayyyy/blastradius) | Traces downstream PR impact as a D3 call graph before merge | FastAPI, IBM Bob, D3.js |
+| [BlastRadius](https://github.com/tazwaryayyyy/blastradius) | Two-stage reasoning pipeline (TraceAgent + RemediationAgent) powered by IBM Bob; traces transitive call chains across any GitHub PR and issues a BLOCK/PROCEED verdict with missing test stubs in 30s | FastAPI, IBM watsonx.ai, D3.js |
 | [QuotaDrift](https://github.com/tazwaryayyyy/quotadrift) | Enforces per-request latency/cost/reliability contracts across LLM providers | FastAPI, LiteLLM, Prometheus |
 | [ProxyMe](https://github.com/tazwaryayyyy/ProxyME) | AI meeting assistant that requires explicit Auth0 CIBA push approval before acting | Auth0 FGA, Groq, WebSocket |
-| [ROCmPort AI](https://github.com/tazwaryayyyy/rocmport-ai) | CUDA-to-HIP migration loop with per-step compile/profile evidence | Groq, CrewAI, FastAPI, SSE |
+| [AegisMorpheme-X](https://github.com/tazwaryayyyy/Aegis-Morpheme-X) | Governance layer for AI agents: every decision sealed on Hedera HCS, anomalous outputs trigger on-chain HTS token slashing, no manual review required | Hedera, FastAPI, React, LangGraph |
 | [WillSpend](https://github.com/tazwaryayyyy/willspend) | Computes the real cost of delayed financial decisions with Monte Carlo projection | FastAPI, Groq, Chart.js |
 | [Sativus AI](https://github.com/tazwaryayyyy/sativus-ai) | Plant diagnosis via Groq vision with live voice using Deepgram STT + ElevenLabs TTS | FastAPI, WebSocket, PWA |
-| [Constit](https://github.com/tazwaryayyyy/constit) | Generates compliant civic campaign outreach copy for political candidates | Next.js, Supabase, Groq |
+| [Constit](https://github.com/tazwaryayyyy/constit) | End-to-end constituent outreach: CSV contact import, Groq-generated SMS variants, Twilio delivery, reply inbox, campaign analytics, and Stripe-billed team workspaces | Next.js, Supabase, Twilio, Groq, Stripe |
 | [Debt Spiral](https://github.com/tazwaryayyyy/debt-spiral) | Debt risk visualization with emergency-state UX switching | FastAPI, JavaScript, Chart.js, Groq |
 
 ---
